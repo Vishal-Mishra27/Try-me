@@ -280,4 +280,7 @@ with gr.Blocks(css=css) as Tryon:
 
 
 
-Tryon.queue(api_open=False).launch(show_api=False)
+# Tryon.queue(api_open=False).launch(show_api=False)
+
+port = int(os.environ.get("PORT", 7860))
+Tryon.queue(api_open=False).launch(server_name="0.0.0.0", server_port=port, show_api=False)
