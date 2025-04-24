@@ -3,7 +3,7 @@ title: Kolors Virtual Try-On
 emoji: 👕
 colorFrom: purple
 colorTo: gray
-sdk: TryMe
+sdk: gradio
 sdk_version: 4.43.0
 app_file: app.py
 pinned: true
